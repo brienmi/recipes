@@ -1,17 +1,23 @@
-/* Color pallet - https://colorswall.com/palette/72892 */
 
 body {
+    font-family:'Times New Roman', Times, serif;
     background: #6a5ea9;
     color:#342454;
-    font-family:'Times New Roman', Times, serif;
 }
 
 
 a {
     color: #342454;
-    background: #78bcec; /* This color will be the box color for each section */
 }
 
 h1 {
     background-color: #c5a3c3
+}
+
+.recipe-card {
+    background-color: #78bcec;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: rgba(197, 163, 195) 0px 5px 15px;
 }
