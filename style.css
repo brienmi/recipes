@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family:'Times New Roman', Times, serif;
@@ -14,6 +17,15 @@ h1 {
     background-color: #c5a3c3
 }
 
+h3 {
+    margin-left: 40px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 .index-card {
     background-color: #78bcec;
     padding: 20px;
@@ -22,26 +34,37 @@ h1 {
     box-shadow: rgba(197, 163, 195) 0px 5px 15px;
 }
 
+.description-card {
+    background-color: #78bcec;
+    padding: 20px;
+    margin: 20px 10px 0px 10px;
+    box-shadow: rgba(197, 163, 195) 0px 5px 15px;
+    font-size: 25px;
+}
+
+.img-card {
+    background-color: #78bcec;
+    padding: 20px;
+    margin: 20px 10px 0px 10px;
+    box-shadow: rgba(197, 163, 195) 0px 5px 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
 .recipe-card {
     background-color: #78bcec;
-    float: left;
-    width: 35%;
     padding: 20px;
-    margin: 20px 10px 20px 10px;
-    text-align: center;
+    margin: 20px 10px 0px 10px;
     box-shadow: rgba(197, 163, 195) 0px 5px 15px;
     font-size: 25px;
 }
 
 .recipe-card li {
-    list-style-type: none;
     padding: 5px;
 }
 
 .instructions-card {
     background-color: #78bcec;
-    float: right;
-    width: 55%;
     padding: 20px;
     margin: 20px 10px 0px 10px;
     box-shadow: rgba(197, 163, 195) 0px 5px 15px;
