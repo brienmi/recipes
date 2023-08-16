@@ -2,8 +2,17 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Kanit";
+    src: url('fonts/Kanit/Kanit-Regular.eot');
+    src: url('fonts/Kanit/Kanit-Regular.eot') format('embedded-opentype'),
+         url('fonts/Kanit/Kanit-Regular.woff2') format('woff2'),
+         url('fonts/Kanit/Kanit-Regular.woff') format('woff'),
+         url('fonts/Kanit/Kanit-Regular.ttf') format('truetype');
+  }
+
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family:"Kanit", sans-serif;
     background: #6a5ea9;
     color:#342454;
 }
@@ -32,6 +41,7 @@ h3 {
     text-align: center;
     margin: 20px;
     box-shadow: rgba(197, 163, 195) 0px 5px 15px;
+    font-size: 25px;
 }
 
 .description-card {
