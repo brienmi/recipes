@@ -1,5 +1,19 @@
 - Space music hip hop astronaut hex colors
 - https://colorswall.com/palette/72892
+
+Color	HEX	RGB		Name			
+#548fc2	RGB(84, 143, 194)	—			
+#78bcec	RGB(120, 188, 236)	-		
+#361c5d	RGB(54, 28, 93)	—	—		
+#6a5ea9	RGB(106, 94, 169)	Card background	
+#c5a3c3	RGB(197, 163, 195)	-			
+#342454	RGB(52, 36, 84)	—	Page background
+rgb(208, 216, 244)		Text color
+
+box-shadow: rgba(197, 163, 195) 0px 5px 15px;
+
+
+OLD VERSION- CHANGED AS OF 8/16/23
 Color	HEX	RGB		Name			
 #548fc2	RGB(84, 143, 194)	—			
 #78bcec	RGB(120, 188, 236)	Box background			
