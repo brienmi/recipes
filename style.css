@@ -42,6 +42,7 @@ h3 {
     margin: 20px;
     box-shadow: rgba(197, 163, 195) 0px 5px 15px;
     font-size: 25px;
+    border-radius: 25px;
 }
 
 .description-card {
@@ -50,6 +51,7 @@ h3 {
     margin: 20px 10px 0px 10px;
     box-shadow: rgba(197, 163, 195) 0px 5px 15px;
     font-size: 25px;
+    border-radius: 25px;
 }
 
 .img-card {
@@ -59,6 +61,7 @@ h3 {
     box-shadow: rgba(197, 163, 195) 0px 5px 15px;
     font-size: 25px;
     text-align: center;
+    border-radius: 25px;
 }
 
 .recipe-card {
@@ -67,6 +70,7 @@ h3 {
     margin: 20px 10px 0px 10px;
     box-shadow: rgba(197, 163, 195) 0px 5px 15px;
     font-size: 25px;
+    border-radius: 25px;
 }
 
 .recipe-card li {
@@ -79,6 +83,7 @@ h3 {
     margin: 20px 10px 0px 10px;
     box-shadow: rgba(197, 163, 195) 0px 5px 15px;
     font-size: 25px;
+    border-radius: 25px;
 }
 
 .instructions-card li {
