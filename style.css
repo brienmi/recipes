@@ -11,10 +11,20 @@
          url('fonts/Kanit/Kanit-Regular.ttf') format('truetype');
   }
 
+ @font-face {
+    font-family: "Lofi-Lifestyle";
+    src: url('fonts/lofi_lifestyle/Lofi_Lifestyle.eot');
+    src: url('fonts/lofi_lifestyle/Lofi_Lifestyle.eot') format('embedded-opentype'),
+         url('fonts/lofi_lifestyle/Lofi_Lifestyle.woff2') format('woff2'),
+         url('fonts/lofi_lifestyle/Lofi_Lifestyle.woff') format('woff'),
+         url('fonts/lofi_lifestyle/Lofi_Lifestyle.ttf') format('truetype');
+ }
+
 body {
     font-family:"Kanit", sans-serif;
     color: rgb(208, 216, 244);
     background: #342454;
+    margin: 0;
 }
 
 
@@ -24,6 +34,21 @@ a {
 
 h1 {
     background-color: #342454;
+}
+
+.header {
+    display: flex;
+    font-family:"Lofi-Lifestyle", sans-serif;
+    background-color: #342454;
+    padding: 16px;
+    /* Need to make logo a link, check bottom border color, add to other pages */
+
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
 }
 
 h3 {
@@ -36,7 +61,6 @@ h3 {
 }
 
 .index-card {
-    /*background-color: #78bcec;*/
     background-color: #6a5ea9;
     padding: 20px;
     text-align: center;
