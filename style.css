@@ -30,10 +30,7 @@ body {
 
 a {
     color: rgb(208, 216, 244);
-}
-
-h1 {
-    background-color: #342454;
+    text-decoration: none;
 }
 
 .header {
@@ -47,7 +44,6 @@ h1 {
 
 .logo {
     font-size: 50px;
-    font-weight: 700;
     font-style: italic;
 }
 
